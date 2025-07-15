@@ -44,6 +44,7 @@ const PreConsultDatePicker: React.FC<PreConsultDatePickerProps> = ({
             sx: { borderRadius: 5 },
           },
         }}
+        maxDate={new Date()}
       />
     </LocalizationProvider>
   );
